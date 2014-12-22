@@ -10,7 +10,7 @@ score of 938 x 53 = 49714
 What is the total of all the name scores in the file?
 '''
 
-file_object = open("p022_names.txt", "r")
+file_object = open("q22_names.txt", "r")
 names = []
 for line in file_object:
 	temp = line.split(',')

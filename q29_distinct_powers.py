@@ -28,3 +28,5 @@ for a in range(2, maximum+1):
 		total.append(a**b)
 print len(set(total))
 
+# an unsatisfying solution to be honest, really takes advantage of python's set structure
+
