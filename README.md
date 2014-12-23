@@ -5,4 +5,4 @@ Math puzzles that are solved with programming
 
 https://projecteuler.net/
 
-12/22/14 - q29
+12/22/14 - q32
