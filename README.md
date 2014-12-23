@@ -4,3 +4,5 @@ My solutions to Project Euler (The missing solutions were on my virtual machine 
 Math puzzles that are solved with programming
 
 https://projecteuler.net/
+
+12/22/14 - q29
