@@ -1,4 +1,8 @@
-# find sum of all primes below 2 million
+'''The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+Find the sum of all the primes below two million.'''
+
+# Crude, should look for better way
 
 
 def is_prime(n):
