@@ -24,12 +24,12 @@ int main(void){
 }
 // recursive fibonacci with max terminating condition
 void Fibonacci(int prev, int cur, int max){
-		int next = prev + cur;
-		if (next > 4000000){
-			return;
-		}
-		if (next % 2 == 0){
-			result += next;
-		}
-		Fibonacci(cur, next, max);
+	int next = prev + cur;
+	if (next > 4000000){
+		return;
 	}
+	if (next % 2 == 0){
+		result += next;
+	}
+	Fibonacci(cur, next, max);
+}

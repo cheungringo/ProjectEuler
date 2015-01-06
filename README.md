@@ -15,3 +15,4 @@ https://projecteuler.net/
 12/22/14 - q32
 12/23/14 - q37
 12/28/14 - redid up to 6
+01/06/15 - done up to 40
