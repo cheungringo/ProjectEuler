@@ -16,7 +16,7 @@ Kind of a brute force solution, but worked after parameters were tweaked. There 
 mathematical solution using multivariable calculus.
 '''
 
-function GeneratePentagonals(n){
+function generatePentagonals(n){
 	pentagonals = [];
 	for (var i=1;i<=n;i++){
 		pentagonals.push(i*(3*i-1)/2);
@@ -24,7 +24,7 @@ function GeneratePentagonals(n){
 	return pentagonals
 }
 
-function FindDifference(pentagonals){
+function findDifference(pentagonals){
 	var difference = -1;
 	for (var i=0;i<pentagonals.length;i++){
 		for (var j=i+1;j<pentagonals.length;j++){
@@ -45,18 +45,17 @@ function FindDifference(pentagonals){
 	return difference;
 }
 
-function GetMinimumDifference(){
+function getMinimumDifference(){
 	var n = 1000;
 	while (true){
-		console.log(n);
 		n += 500;
-		var pentagonals = GeneratePentagonals(n);
-		var D = FindDifference(pentagonals);
+		var pentagonals = generatePentagonals(n);
+		var D = findDifference(pentagonals);
 		if (D != -1){
 			return D;
 		}	
 
 	}
 }
-console.log(GetMinimumDifference());
+console.log(getMinimumDifference());
 
