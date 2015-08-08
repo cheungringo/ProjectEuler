@@ -35,7 +35,6 @@ def GeneratePandigitals(lower, upper):
 				number = 0
 				for digit in range(len(pandigital)):
 					number += pandigital[digit]*10**(upper-digit)
-				print number
 				sumPandigitals += number
 	return sumPandigitals
 
