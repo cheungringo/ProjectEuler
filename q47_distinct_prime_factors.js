@@ -83,5 +83,4 @@ function findConsecutive(num){
 	}
 }
 
-
-console.log(findConsecutive(2));
+console.log(findConsecutive(4));
