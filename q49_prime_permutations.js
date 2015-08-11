@@ -65,8 +65,11 @@ function numToArray(num){
 function primePermutation(){
 	var result = [];
 	var primes = getPrimesOfDigit(4);
-	for (var i=1488;i<primes.length;i++){
+	for (var i=0;i<primes.length;i++){
 		var first = primes[i];
+		if (first == 1487){
+			continue;
+		}
 		for (var j=i+1;j<primes.length;j++){
 			if (isPermOf(first, primes[j])){
 				var second = primes[j];
