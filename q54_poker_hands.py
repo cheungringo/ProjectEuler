@@ -154,8 +154,6 @@ def checkWinner(line):
 	hand2 = hand(hands[5:10])
 	RF = checkRF(hand1, hand2)
 	if RF > 0:
-		print "RF: " +  str(RF)
-		print line
 		return RF
 	SF = checkSF(hand1, hand2)
 	if SF > 0:
@@ -177,8 +175,6 @@ def checkWinner(line):
 		return Triple
 	final = checkPairsAndBelow(hand1, hand2)
 	if final > 0:
-		print "Pairs or singles: " + str(final)
-		print line
 		return final
 
 # the convention here is to return 1 if player 1 wins, 2 if player 2 wins and 0 in case of tie
